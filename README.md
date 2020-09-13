@@ -2,14 +2,22 @@
 
 Make your life easier with laradoc.
 
-## Laravel Installation
+## Install Laravel
 
-Inside the Src folder put your laravel files and run these commands
+laravel files will go inside src folder
+
+```composer
+create-project --prefer-dist laravel/laravel ./
+```
+
+# Build docker images and run the applications
 
 ```docker
 docker-compose build
 docker-compose up -d
 ```
+
+And you are ready to build something amazing :) Localhost url: [http://localhost:8090](http://localhost:8090)
 
 ## To run composer commands
 
