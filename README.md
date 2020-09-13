@@ -1,4 +1,5 @@
-#LARADOC
+# LARADOC
+
 Make your life easier with laradoc.
 
 ## Laravel Installation
