@@ -11,12 +11,22 @@ docker-compose build
 docker-compose up -d
 ```
 
-## Other useful commands
+## To run composer commands
 
 ```docker
-docker-compose run --rm composer update
-docker-compose run --rm npm run dev
-docker-compose run --rm artisan migrate
+docker-compose run --rm composer ....
+```
+
+## To run artisan commands
+
+```docker
+docker-compose run --rm artisan ....
+```
+
+## To run npm commands
+
+```docker
+docker-compose run --rm npm ....
 ```
 
 ## License
