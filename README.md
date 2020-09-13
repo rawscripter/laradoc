@@ -7,7 +7,7 @@ Make your life easier with laradoc.
 laravel files will go inside src folder
 
 ```composer
-create-project --prefer-dist laravel/laravel ./
+create-project --prefer-dist laravel/laravel .
 ```
 
 # Build docker images and run the applications
